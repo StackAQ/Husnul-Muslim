@@ -40,7 +40,7 @@ export default function Sidebar() {
       >
         <nav className="space-y-10">
           <h1 className="text-lg lg:text-xl font-semibold">HUSNUL MUSLIM</h1>
-          <ul className="grid gap-2">
+          <ul className="grid gap-4">
             {links.map((link) => (
               <li className="flex items-center gap-3" key={link.href}>
                 {link.icon}
@@ -63,7 +63,7 @@ export default function Sidebar() {
             <span className="italic uppercase text-sm w-full">
               designed and developed by{" "}
               <a
-                className="text-base font-bold"
+                className="text-base font-bold underline"
                 href="https://aq-portfolio-rose.vercel.app/"
               >
                 Abdulqudus
