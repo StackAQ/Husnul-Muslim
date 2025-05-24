@@ -5,7 +5,6 @@ import Link from "next/link";
 import clsx from "clsx";
 import { useState } from "react";
 import { Menu, X, Home, Grid, Bookmark, Search, Code } from "lucide-react";
-import Image from "next/image";
 
 const links = [
   { href: "/", label: "Home", icon: <Home /> },

@@ -1,39 +1,7 @@
-import {
-  Search,
-  Sunrise,
-  Moon,
-  Utensils,
-  Plane,
-  HeartPulse,
-  Feather,
-  ShieldAlert,
-  Smile,
-  Users,
-} from "lucide-react";
-import Link from "next/link"
+"use client"
 
-const categories = [
-  {
-    name: "Morning and Night Duas",
-    icon: <Sunrise />,
-    cap: "Start your day and night with remembrance and protection.",
-  },
-  {
-    name: "Utensils",
-    icon: <Utensils />,
-    cap: "Remember Allah before and after meals.",
-  },
-  {
-    name: "Travel Duas",
-    icon: <Plane />,
-    cap: "Stay safe and protected while on the move.",
-  },
-  {
-    name: "Duas for Forgiveness",
-    icon: <Feather />,
-    cap: "Ask for Allah's mercy and pardon.",
-  },
-];
+import Link from "next/link"
+import {categories} from "../libs/data"
 
 export default function Home() {
   return (
