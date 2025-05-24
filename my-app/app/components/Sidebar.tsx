@@ -42,7 +42,7 @@ export default function Sidebar() {
           <h1 className="text-lg lg:text-xl font-semibold">HUSNUL MUSLIM</h1>
           <ul className="grid gap-2">
             {links.map((link) => (
-              <li className="flex items-center gap-2" key={link.href}>
+              <li className="flex items-center gap-3" key={link.href}>
                 {link.icon}
                 <Link
                   href={link.href}
