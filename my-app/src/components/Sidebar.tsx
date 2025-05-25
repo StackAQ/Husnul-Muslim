@@ -65,7 +65,7 @@ export default function Sidebar() {
                 className="text-base font-bold underline"
                 href="https://aq-portfolio-rose.vercel.app/"
               >
-                Abdulqudus
+                ▶Abdulqudus◀
               </a>
             </span>
           </div>

@@ -1,27 +1,64 @@
 import { Dua } from "./types";
-import { Sunrise, Utensils, Plane, Feather } from "lucide-react";
+import { Sunrise, Utensils, Plane, Landmark, House } from "lucide-react";
 
 export const categories = [
   {
     name: "Morning and Night Duas",
     icon: <Sunrise />,
     cap: "Start your day and night with remembrance and protection.",
-    url: ""
+    href: "/categories/day"
   },
   {
     name: "Before and After Eating",
     icon: <Utensils />,
     cap: "Remember Allah before and after meals.",
+    href: "/categories/eat"
   },
   {
     name: "Travel Duas",
     icon: <Plane />,
     cap: "Stay safe and protected while on the move.",
+    href: "/categories/travel"
   },
   {
-    name: "Duas for Forgiveness",
-    icon: <Feather />,
-    cap: "Ask for Allah's mercy and pardon.",
+    name: "House Duas",
+    icon: <House />,
+    cap: "Stay safe while entering or leaving your house",
+    href: "/categories/house"
+  },
+  {
+    name: "Masjid Duas",
+    icon: <Landmark />,
+    cap: "Dua when entering or leaving Masjid.",
+    href: "/categories/masjid"
+  },
+
+];
+
+export const homecate = [
+  {
+    name: "Morning and Night Duas",
+    icon: <Sunrise />,
+    cap: "Start your day and night with remembrance and protection.",
+    href: "/categories/day",
+  },
+  {
+    name: "Before and After Eating",
+    icon: <Utensils />,
+    cap: "Remember Allah before and after meals.",
+    href: "/categories/eat",
+  },
+  {
+    name: "Travel Duas",
+    icon: <Plane />,
+    cap: "Stay safe and protected while on the move.",
+    href: "/categories/travel",
+  },
+  {
+    name: "Masjid Duas",
+    icon: <Landmark />,
+    cap: "Dua when entering or leaving Masjid.",
+    href: "/categories/masjid",
   },
 ];
 
