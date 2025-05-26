@@ -12,9 +12,9 @@ export default function DayDuas() {
         {dayduas.map((dua) => (
           <div className="grid gap-4 border border-cyan-500 p-3 rounded-xl">
             <h1 className="text-cyan-500 text-xl font-bold">{dua.title}</h1>
-            <div className="grid gap-1 text-xl">
-              <span className="text-cyan-600 font-medium">Arabic</span>
-              <span className="text-cyan-700 tracking-widest">
+            <div className="grid gap-1 text-xl font-medium">
+              <span className="text-cyan-600">Arabic</span>
+              <span className="text-cyan-700">
                 {dua.arabic}
               </span>
             </div>
